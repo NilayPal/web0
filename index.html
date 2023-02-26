@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet"href="CSS/Style.css">
+</head>
+
+<body>
+    <h1 style="color:black;text-align:center;">Student Registration Form</h1>
+    <h3 > Peraonal Details</h3> <hr>
+   <div> 
+    <form>
+        <table>
+        <thead>
+            <tr>
+                <th> Name* </th>
+                <th> Fathers Name*</th>
+                <th> Mothers Name</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td> <input type="text"name="name"placeholder="Enter yoyr name"></td>
+                <td> <input type="text"name="name"placeholder="Enter yoyr fathers name"></td>
+                <td> <input type="text"name="name"placeholder="Enter yoyr mothers name"></td>
+            </tr>
+        </tbody>
+        <thead>
+            <tr>
+                <th> Mobile Number</th>
+                <th> Email id</th>
+                <th> Date of Birth</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td><input type="number"name="phone"placeholder="Enter your mobile"></td>
+                <td><input type="email"name="mail"placeholder="Enter your mail id"></td>
+                <td><input type="date"name="dob"placeholder="Enter your date of birth"></td>
+            </tr>
+        </tbody>
+        <thead>
+            <tr>
+                <th>Adhar Number</th>
+                <th> Blood Group</th>
+                <th> Gender</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td><input type="number"name="Adhar"placeholder="1111 2222 3333"></td>
+                <td><input type="text"name="name"placeholder="Eg:A,A+,A-,AB"></td>
+                <td><Select name="Gender" id="Gender">
+                    <option value="Male">Male</option>
+                    <option value="Female">Female</option>
+                </Select></td>
+            </tr>
+        </tbody>
+        <thead>
+            <tr>
+            <th>Religion</th>
+            <th>Categary</th>
+            <th>Image</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td><Select name="Religion" id="Religion">
+                    <option value="Hindu">Hindu</option>
+                    <option value="Muslim">Muslim</option>
+                    <option value="sikh">sikh</option>
+                </Select></td>
+                <td><select name="Categary" id="categary">
+                    <option value="General">General</option>
+                    <option value="SC">SC</option>
+                    <option value="OBC">OBC</option>
+                </select></td>
+                <td> <input type="file" name="image" acept="file/pdf,image/jpg"></td>
+            </tr>
+        </tbody>
+        </table>       
+
+        <h3> Address </h3>
+
+    </form>
+   </div>
+</body>
+</html>
